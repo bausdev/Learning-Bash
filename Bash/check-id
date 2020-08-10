@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo 'How old are you?'
+
+read age
+
+if [ $age -gt 21 ]
+then
+    echo 'What can I get you to drink?'
+else
+    echo "I'm sorry, the capri suns are over there."
+fi

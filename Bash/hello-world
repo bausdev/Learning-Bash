@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# who="World"
+
+# echo "Hello, World"
+# echo I can write whatever I want
+# echo -e "This sentence changes \nlines just like that!"
+
+# echo "Hello, $who!"
+# echo "Hello, $(whoami)!"
+
+echo 'Who are you?'
+
+read who
+
+echo "Hello, $who!"

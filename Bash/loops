@@ -1,0 +1,9 @@
+#!/bin/bash
+
+files=/Users/you/dev/*
+
+for file in $files
+do
+	echo $(basename $file)
+done
+
